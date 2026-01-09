@@ -1,0 +1,16 @@
+/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Data/bin/Debug/net10.0/CargoTracker.Data.deps.json
+/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Data/bin/Debug/net10.0/CargoTracker.Data.dll
+/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Data/bin/Debug/net10.0/CargoTracker.Data.pdb
+/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Data/obj/Debug/net10.0/CargoTracker.Data.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Data/obj/Debug/net10.0/CargoTracker.Data.AssemblyInfoInputs.cache
+/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Data/obj/Debug/net10.0/CargoTracker.Data.AssemblyInfo.cs
+/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Data/obj/Debug/net10.0/CargoTracker.Data.csproj.CoreCompileInputs.cache
+/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Data/obj/Debug/net10.0/CargoTracker.Data.sourcelink.json
+/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Data/obj/Debug/net10.0/CargoTracker.Data.dll
+/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Data/obj/Debug/net10.0/refint/CargoTracker.Data.dll
+/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Data/obj/Debug/net10.0/CargoTracker.Data.pdb
+/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Data/obj/Debug/net10.0/ref/CargoTracker.Data.dll
+/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Data/bin/Debug/net10.0/CargoTracker.Models.dll
+/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Data/bin/Debug/net10.0/CargoTracker.Models.pdb
+/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Data/obj/Debug/net10.0/CargoTracker.Data.csproj.AssemblyReference.cache
+/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Data/obj/Debug/net10.0/CargoTra.06A947AB.Up2Date

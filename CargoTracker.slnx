@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/CargoTracker/">
+    <Project Path="CargoTracker/CargoTracker.API/CargoTracker.API.csproj" />
+    <Project Path="CargoTracker/CargoTracker.Data/CargoTracker.Data.csproj" />
+    <Project Path="CargoTracker/CargoTracker.Models/CargoTracker.Models.csproj" />
+    <Project Path="CargoTracker/CargoTracker.Tests/CargoTracker.Tests.csproj" />
+  </Folder>
+</Solution>

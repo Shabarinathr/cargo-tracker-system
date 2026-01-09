@@ -1,0 +1,12 @@
+/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Models/bin/Debug/net10.0/CargoTracker.Models.deps.json
+/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Models/bin/Debug/net10.0/CargoTracker.Models.dll
+/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Models/bin/Debug/net10.0/CargoTracker.Models.pdb
+/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Models/obj/Debug/net10.0/CargoTracker.Models.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Models/obj/Debug/net10.0/CargoTracker.Models.AssemblyInfoInputs.cache
+/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Models/obj/Debug/net10.0/CargoTracker.Models.AssemblyInfo.cs
+/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Models/obj/Debug/net10.0/CargoTracker.Models.csproj.CoreCompileInputs.cache
+/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Models/obj/Debug/net10.0/CargoTracker.Models.sourcelink.json
+/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Models/obj/Debug/net10.0/CargoTracker.Models.dll
+/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Models/obj/Debug/net10.0/refint/CargoTracker.Models.dll
+/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Models/obj/Debug/net10.0/CargoTracker.Models.pdb
+/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Models/obj/Debug/net10.0/ref/CargoTracker.Models.dll
