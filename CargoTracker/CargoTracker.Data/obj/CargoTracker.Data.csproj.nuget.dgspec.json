@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Data/CargoTracker.Data.csproj": {}
+    "C:\\Users\\hp\\Desktop\\cargo-tracker-system\\CargoTracker\\CargoTracker.Data\\CargoTracker.Data.csproj": {}
   },
   "projects": {
-    "/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Data/CargoTracker.Data.csproj": {
+    "C:\\Users\\hp\\Desktop\\cargo-tracker-system\\CargoTracker\\CargoTracker.Data\\CargoTracker.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Data/CargoTracker.Data.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\Desktop\\cargo-tracker-system\\CargoTracker\\CargoTracker.Data\\CargoTracker.Data.csproj",
         "projectName": "CargoTracker.Data",
-        "projectPath": "/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Data/CargoTracker.Data.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Data/obj/",
+        "projectPath": "C:\\Users\\hp\\Desktop\\cargo-tracker-system\\CargoTracker\\CargoTracker.Data\\CargoTracker.Data.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hp\\Desktop\\cargo-tracker-system\\CargoTracker\\CargoTracker.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -26,8 +26,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Models/CargoTracker.Models.csproj": {
-                "projectPath": "/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Models/CargoTracker.Models.csproj"
+              "C:\\Users\\hp\\Desktop\\cargo-tracker-system\\CargoTracker\\CargoTracker.Models\\CargoTracker.Models.csproj": {
+                "projectPath": "C:\\Users\\hp\\Desktop\\cargo-tracker-system\\CargoTracker\\CargoTracker.Models\\CargoTracker.Models.csproj"
               }
             }
           }
@@ -73,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -351,17 +351,17 @@
         }
       }
     },
-    "/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Models/CargoTracker.Models.csproj": {
+    "C:\\Users\\hp\\Desktop\\cargo-tracker-system\\CargoTracker\\CargoTracker.Models\\CargoTracker.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Models/CargoTracker.Models.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\Desktop\\cargo-tracker-system\\CargoTracker\\CargoTracker.Models\\CargoTracker.Models.csproj",
         "projectName": "CargoTracker.Models",
-        "projectPath": "/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Models/CargoTracker.Models.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Models/obj/",
+        "projectPath": "C:\\Users\\hp\\Desktop\\cargo-tracker-system\\CargoTracker\\CargoTracker.Models\\CargoTracker.Models.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hp\\Desktop\\cargo-tracker-system\\CargoTracker\\CargoTracker.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -406,7 +406,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

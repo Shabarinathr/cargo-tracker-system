@@ -1,0 +1,92 @@
+CARGO TRACKER SYSTEM - PROJECT STRUCTURE
+==========================================
+
+cargo-tracker-system/
+│
+├── CargoTracker.slnx                          # Solution file
+├── README.md                                  # Project documentation
+├── Vessel.cs                                  # Root level Vessel model
+├── .git/                                      # Git repository
+│
+└── CargoTracker/                              # Main solution folder
+    │
+    ├── CargoTracker.API/                      # ASP.NET Core API Project
+    │   ├── Program.cs                         # API startup configuration
+    │   ├── WeatherForecast.cs                 # Weather forecast model
+    │   ├── CargoTracker.API.csproj            # API project file
+    │   ├── CargoTracker.API.http              # REST client file
+    │   ├── appsettings.json                   # App configuration
+    │   ├── appsettings.Development.json       # Development settings
+    │   │
+    │   ├── Controllers/
+    │   │   ├── VesselsController.cs           # Vessels API endpoints
+    │   │   └── WeatherForecastController.cs   # Weather forecast endpoints
+    │   │
+    │   ├── Properties/
+    │   │   └── launchSettings.json            # Launch configuration
+    │   │
+    │   ├── bin/                               # Build output
+    │   │   └── Debug/
+    │   │       └── net10.0/
+    │   │
+    │   └── obj/                               # Build intermediate files
+    │       ├── project.assets.json
+    │       └── Debug/
+    │           └── net10.0/
+    │
+    ├── CargoTracker.Models/                   # Data Models Project
+    │   ├── Vessel.cs                          # Vessel model
+    │   ├── Class1.cs                          # Placeholder class
+    │   ├── CargoTracker.Models.csproj         # Models project file
+    │   │
+    │   ├── bin/                               # Build output
+    │   │   └── Debug/
+    │   │       └── net10.0/
+    │   │
+    │   └── obj/                               # Build intermediate files
+    │       └── Debug/
+    │           └── net10.0/
+    │
+    ├── CargoTracker.Data/                     # Data Access Project (NEW)
+    │   ├── AppDbContext.cs                    # Entity Framework DbContext
+    │   ├── DesignTimeDbContextFactory.cs      # Factory for design-time operations
+    │   ├── Class1.cs                          # Placeholder class
+    │   ├── CargoTracker.Data.csproj           # Data project file
+    │   │
+    │   ├── bin/                               # Build output
+    │   │   └── Debug/
+    │   │       └── net10.0/
+    │   │
+    │   └── obj/                               # Build intermediate files
+    │       └── Debug/
+    │           └── net10.0/
+    │
+    └── CargoTracker.Tests/                    # Unit Tests Project
+        ├── UnitTest1.cs                       # Sample unit test
+        ├── CargoTracker.Tests.csproj          # Tests project file
+        │
+        ├── bin/                               # Build output
+        │   └── Debug/
+        │       └── net10.0/
+        │
+        └── obj/                               # Build intermediate files
+            └── Debug/
+                └── net10.0/
+
+
+PROJECT OVERVIEW
+================
+
+Framework: .NET 10.0
+Architecture: Layered (API / Models / Data / Tests)
+
+Key Projects:
+1. CargoTracker.API       - REST API endpoints using ASP.NET Core
+2. CargoTracker.Models    - Shared data models and entities
+3. CargoTracker.Data      - Entity Framework Core data access layer
+4. CargoTracker.Tests     - Unit tests
+
+Main Features:
+- Vessel management API (VesselsController)
+- Weather forecast API (WeatherForecastController)
+- Entity Framework Core with DbContext

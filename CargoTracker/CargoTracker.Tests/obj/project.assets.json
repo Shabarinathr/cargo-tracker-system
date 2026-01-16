@@ -877,19 +877,19 @@
     ]
   },
   "packageFolders": {
-    "/home/codespace/.nuget/packages/": {}
+    "C:\\Users\\hp\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Tests/CargoTracker.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\hp\\Desktop\\cargo-tracker-system\\CargoTracker\\CargoTracker.Tests\\CargoTracker.Tests.csproj",
       "projectName": "CargoTracker.Tests",
-      "projectPath": "/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Tests/CargoTracker.Tests.csproj",
-      "packagesPath": "/home/codespace/.nuget/packages/",
-      "outputPath": "/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Tests/obj/",
+      "projectPath": "C:\\Users\\hp\\Desktop\\cargo-tracker-system\\CargoTracker\\CargoTracker.Tests\\CargoTracker.Tests.csproj",
+      "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hp\\Desktop\\cargo-tracker-system\\CargoTracker\\CargoTracker.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/codespace/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -952,7 +952,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

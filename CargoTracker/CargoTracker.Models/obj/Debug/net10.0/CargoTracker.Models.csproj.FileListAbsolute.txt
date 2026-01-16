@@ -10,3 +10,15 @@
 /workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Models/obj/Debug/net10.0/refint/CargoTracker.Models.dll
 /workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Models/obj/Debug/net10.0/CargoTracker.Models.pdb
 /workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Models/obj/Debug/net10.0/ref/CargoTracker.Models.dll
+C:\Users\hp\Desktop\cargo-tracker-system\CargoTracker\CargoTracker.Models\bin\Debug\net10.0\CargoTracker.Models.deps.json
+C:\Users\hp\Desktop\cargo-tracker-system\CargoTracker\CargoTracker.Models\bin\Debug\net10.0\CargoTracker.Models.dll
+C:\Users\hp\Desktop\cargo-tracker-system\CargoTracker\CargoTracker.Models\bin\Debug\net10.0\CargoTracker.Models.pdb
+C:\Users\hp\Desktop\cargo-tracker-system\CargoTracker\CargoTracker.Models\obj\Debug\net10.0\CargoTracker.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\cargo-tracker-system\CargoTracker\CargoTracker.Models\obj\Debug\net10.0\CargoTracker.Models.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\cargo-tracker-system\CargoTracker\CargoTracker.Models\obj\Debug\net10.0\CargoTracker.Models.AssemblyInfo.cs
+C:\Users\hp\Desktop\cargo-tracker-system\CargoTracker\CargoTracker.Models\obj\Debug\net10.0\CargoTracker.Models.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\cargo-tracker-system\CargoTracker\CargoTracker.Models\obj\Debug\net10.0\CargoTracker.Models.sourcelink.json
+C:\Users\hp\Desktop\cargo-tracker-system\CargoTracker\CargoTracker.Models\obj\Debug\net10.0\CargoTracker.Models.dll
+C:\Users\hp\Desktop\cargo-tracker-system\CargoTracker\CargoTracker.Models\obj\Debug\net10.0\refint\CargoTracker.Models.dll
+C:\Users\hp\Desktop\cargo-tracker-system\CargoTracker\CargoTracker.Models\obj\Debug\net10.0\CargoTracker.Models.pdb
+C:\Users\hp\Desktop\cargo-tracker-system\CargoTracker\CargoTracker.Models\obj\Debug\net10.0\ref\CargoTracker.Models.dll
