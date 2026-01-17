@@ -17,10 +17,10 @@ jobs:
         dotnet-version: '10.0.x'
         
     - name: Restore
-      run: dotnet restore CargoTracker.sln
+      run: dotnet restore CargoTracker.slnx
       
     - name: Build
-      run: dotnet build CargoTracker.sln --no-restore -c Release
+      run: dotnet build CargoTracker.slnx --no-restore -c Release
       
     - name: Test
       run: dotnet test CargoTracker.Tests/CargoTracker.Tests.csproj --no-build
