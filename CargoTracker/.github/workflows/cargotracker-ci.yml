@@ -1,0 +1,29 @@
+name: CargoTracker CI/CD (Azure DevOps Style)
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup .NET 10
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '10.0.x'
+        
+    - name: Restore
+      run: dotnet restore CargoTracker.sln
+      
+    - name: Build
+      run: dotnet build CargoTracker.sln --no-restore -c Release
+      
+    - name: Test
+      run: dotnet test CargoTracker.Tests/CargoTracker.Tests.csproj --no-build
+      
+    - name: Publish API
+      run: dotnet publish CargoTracker.API/CargoTracker.API.csproj -c Release -o ./publish/api

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\Desktop\\cargo-tracker-system\\CargoTracker\\CargoTracker.Models\\CargoTracker.Models.csproj": {}
+    "/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Models/CargoTracker.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\Desktop\\cargo-tracker-system\\CargoTracker\\CargoTracker.Models\\CargoTracker.Models.csproj": {
+    "/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Models/CargoTracker.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Desktop\\cargo-tracker-system\\CargoTracker\\CargoTracker.Models\\CargoTracker.Models.csproj",
+        "projectUniqueName": "/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Models/CargoTracker.Models.csproj",
         "projectName": "CargoTracker.Models",
-        "projectPath": "C:\\Users\\hp\\Desktop\\cargo-tracker-system\\CargoTracker\\CargoTracker.Models\\CargoTracker.Models.csproj",
-        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Desktop\\cargo-tracker-system\\CargoTracker\\CargoTracker.Models\\obj\\",
+        "projectPath": "/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Models/CargoTracker.Models.csproj",
+        "packagesPath": "/home/codespace/.nuget/packages/",
+        "outputPath": "/workspaces/cargo-tracker-system/CargoTracker/CargoTracker.Models/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/codespace/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
