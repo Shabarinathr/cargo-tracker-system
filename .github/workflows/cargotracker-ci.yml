@@ -23,7 +23,7 @@ jobs:
       run: dotnet build CargoTracker.slnx --no-restore -c Release
       
     - name: Test
-      run: dotnet test CargoTracker.Tests/CargoTracker.Tests.csproj --no-build
+      run: dotnet test CargoTracker/CargoTracker.Tests/CargoTracker.Tests.csproj --no-build
       
     - name: Publish API
-      run: dotnet publish CargoTracker.API/CargoTracker.API.csproj -c Release -o ./publish/api
+      run: dotnet publish CargoTracker/CargoTracker.API/CargoTracker.API.csproj -c Release -o ./publish/api
