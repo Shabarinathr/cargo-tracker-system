@@ -1,0 +1,10 @@
+version: '3.9'
+services:
+  cargotracker:
+    build: .
+    ports:
+      - "5169:8080"
+    volumes:
+      - ./cargotracker.db:/app/cargotracker.db
+    environment:
+      - ConnectionStrings__DefaultConnection=Data Source=/app/cargotracker.db

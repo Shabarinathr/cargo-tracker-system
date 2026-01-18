@@ -1,0 +1,29 @@
+name: CargoTracker CD (Docker Deploy)
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup .NET 10
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '10.0.x'
+    
+    - name: Build & Test
+      run: |
+        dotnet restore
+        dotnet build
+        dotnet test
+    
+    - name: Build & Push Docker
+      run: |
+        docker build -t cargotracker-api:latest .
+        docker tag cargotracker-api:latest ghcr.io/${{ github.repository_owner }}/cargotracker:latest
+        echo ${{ secrets.GITHUB_TOKEN }} | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+        docker push ghcr.io/${{ github.repository_owner }}/cargotracker:latest
