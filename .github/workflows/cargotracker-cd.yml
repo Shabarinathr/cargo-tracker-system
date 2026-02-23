@@ -1,4 +1,5 @@
 name: CargoTracker CD (Docker Deploy)
+
 on:
   push:
     branches: [ main ]
@@ -7,23 +8,37 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      packages: write
+
     steps:
     - uses: actions/checkout@v4
-    
+
     - name: Setup .NET 10
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: '10.0.x'
-    
+
     - name: Build & Test
       run: |
         dotnet restore
-        dotnet build
-        dotnet test
-    
-    - name: Build & Push Docker
-      run: |
-        docker build -t CargoTracker.API:latest .
-        docker tag CargoTracker.API:latest ghcr.io/${{ github.repository_owner }}/cargotracker:latest
-        echo ${{ secrets.GITHUB_TOKEN }} | docker login ghcr.io -u ${{ github.actor }} --password-stdin
-        docker push ghcr.io/${{ github.repository_owner }}/cargotracker:latest
+        dotnet build --no-restore
+        dotnet test --no-build
+
+    - name: Convert owner to lowercase
+      id: repo
+      run: echo "owner=$(echo '${{ github.repository_owner }}' | tr '[:upper:]' '[:lower:]')" >> $GITHUB_OUTPUT
+
+    - name: Login to GitHub Container Registry
+      run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u "${{ github.actor }}" --password-stdin
+
+    - name: Build Docker Image
+      run: docker build -t cargotracker-api:latest .
+
+    - name: Tag Docker Image
+      run: docker tag cargotracker-api:latest ghcr.io/${{ steps.repo.outputs.owner }}/cargotracker:latest
+
+    - name: Push Docker Image
+      run: docker push ghcr.io/${{ steps.repo.outputs.owner }}/cargotracker:latest
