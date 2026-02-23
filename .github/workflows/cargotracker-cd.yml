@@ -23,7 +23,7 @@ jobs:
     
     - name: Build & Push Docker
       run: |
-        docker build -t cargotracker-api:latest .
-        docker tag cargotracker-api:latest ghcr.io/${{ github.repository_owner }}/cargotracker:latest
+        docker build -t CargoTracker.API:latest .
+        docker tag CargoTracker.API:latest ghcr.io/${{ github.repository_owner }}/cargotracker:latest
         echo ${{ secrets.GITHUB_TOKEN }} | docker login ghcr.io -u ${{ github.actor }} --password-stdin
         docker push ghcr.io/${{ github.repository_owner }}/cargotracker:latest
